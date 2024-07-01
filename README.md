@@ -1,3 +1,12 @@
+# Keno Reyes Portfolio Website
+
+This is a source code to my personal portfolio website, built with TypeScript and utilizes React and Bootstrap as frameworks. This site includes all my relevant projects,
+as well as some links to my contact information. 
+
+As of 6/30/24: 
+- developed for mobile support
+- created Landing Page for site
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
