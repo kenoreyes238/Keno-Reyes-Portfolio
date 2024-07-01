@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Poppins' system-ui;
+  line-height: 1.5;
+  font-weight: 500;
+  background-color: #f5ebe0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+
+  img {
+    max-width: 100%;
+  }
+}

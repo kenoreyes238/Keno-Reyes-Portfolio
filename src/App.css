@@ -1,0 +1,144 @@
+/*Global*/
+.body-bg {
+    background-color: #f5ebe0;
+}
+
+p {
+    font-weight: 500;
+}
+
+/*Navbar*/
+.mainNav {
+    padding: 2rem;
+    max-width: 100vw;
+    background-color: #f5ebe0;
+    position: sticky;
+    z-index: 1;
+    border-bottom: 3px solid black;
+}
+
+.navLinks {
+    padding-left: 1rem;
+}
+  
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    padding: 2rem;
+  
+    h2 {
+      padding-top: 0.5rem;
+      padding-right: 2rem;
+    }
+  
+    a {
+      margin: 1rem;
+    }
+}
+
+Carousel {
+    width: 100%;
+}
+
+.landingPage {
+    padding: 2rem 2rem 2rem 2rem;
+    /* padding-top: 2rem; */
+    max-width: 80rem;
+
+    .landing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .landingMe {
+            width: 40ch;
+            padding-bottom: 3rem;
+        
+            h1 {
+              border-bottom: 4.5px black solid;
+              padding-bottom: 2rem;
+              font-weight: 700;
+            }
+        
+            h4 {
+              font-weight: 500;
+              padding-top: 2rem;
+              line-height: 2.5rem;
+            }
+        
+            Button {
+              margin-top: 1rem;
+              font-weight: 400;
+              cursor: pointer;
+            }
+        }
+    }
+
+    .aboutMe {
+        display: flex;
+        align-items: center;
+        padding: 2rem 0 0 0;
+    
+        h3 {
+          font-weight: 500;
+        }
+    
+        h1 {
+          font-weight: 700;
+        }
+    
+        img {
+          display: flex;
+          margin: 1.5rem 0 0 0;
+          width: 12rem;
+          height: 12rem;
+          border-radius: 50%;
+        }
+    }
+
+    .description {
+        padding-top: 3rem;
+    }
+
+    .experience {
+        padding: 3rem 0 0 0;
+
+        .expHeader {
+            display: flex;
+            flex-direction: column;
+            border-top: 5px solid black;
+            padding-top: 1.5rem;
+            width: 85rem;
+
+            h1 {
+                font-weight: 700;
+            }
+        }
+
+        .expJobs {
+            padding-top: 2rem;
+
+            .jobCard {
+                margin-top: 1rem;
+            }
+        }
+
+        .certificates {
+            padding-top: 2rem;
+
+            h2 {
+                padding-bottom: 1rem;
+                font-weight: 700;
+              }
+        }
+    }
+}
