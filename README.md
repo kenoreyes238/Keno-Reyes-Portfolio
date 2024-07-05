@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# Keno Reyes Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a source code to my personal portfolio website, built with TypeScript and utilizing React and Bootstrap as frameworks. 
+This site includes all my relevant projects, as well as highlighting my experiences, certificates and showcasing some 
+links to my contact information. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+As of 6/30/24: 
+- developed for mobile support
+- created Navbar using Bootstrap for other pages in the site
+- created Footer for links to LinkedIn, GitHub, and Instagram
+- created Landing Page for site
+  - created a carousel component to showcase projects
+  - added an "about me" section
+  - added an "experiences" section, with link to resume, showcasing jobs, and certificates
