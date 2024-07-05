@@ -1,5 +1,5 @@
 /*Global*/
-.body-bg {
+body {
     background-color: #f5ebe0;
 }
 
@@ -139,6 +139,64 @@ Carousel {
                 padding-bottom: 1rem;
                 font-weight: 700;
               }
+        }
+    }
+}
+
+/*Projects page*/
+.projects {
+    padding: 2rem 2rem 2rem 2rem;
+
+    img {
+        width: 100%;
+    }
+    
+    h1 {
+        font-weight: 700;
+        padding-bottom: 2rem;
+    }
+    
+    .oddNum {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 3px solid black;
+
+        h1 {
+            padding-top: 1rem;
+          }
+
+        .description {
+            padding-left: 1rem;
+      
+            h4 {
+                padding-top: 1rem;
+                width: 30ch;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .evenNum {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 3px solid black;
+
+        h1 {
+            padding-top: 1rem;
+          }
+
+        .description {
+            padding-left: 1rem;
+      
+            h4 {
+                padding-top: 2rem;
+                width: 30ch;
+                font-weight: 400;
+            }
+
+            Button {
+                margin-bottom: 1rem;
+            }
         }
     }
 }
