@@ -11,7 +11,7 @@ function Projects() {
             <h1>Projects</h1>
         </Row>
         <OddProject
-            projectImg="../public/MyInventory.png"
+            projectImg="../MyInventory.png"
             imgAlt="MyInventory App UI"
             projectNum="01"
             projectTitle="MyInventory App"
@@ -20,7 +20,7 @@ function Projects() {
             viewProject="https://github.com/kenoreyes238/keno-reyes-final-project-front"
         />
         <EvenProject
-            projectImg="../public/YapperChat.png"
+            projectImg="../YapperChat.png"
             imgAlt="YapperChat App UI"
             projectNum="02"
             projectTitle="Yapper Chat"
@@ -29,7 +29,7 @@ function Projects() {
             viewProject="https://yapper-chat.netlify.app/"
         />
         <OddProject
-            projectImg="../public/Pokedex.png"
+            projectImg="../Pokedex.png"
             imgAlt="Pokedex Search API UI"
             projectNum="03"
             projectTitle="Pokedex Search"
@@ -38,7 +38,7 @@ function Projects() {
             viewProject="https://kreyes-pokedex-search.netlify.app"
         />
         <EvenProject
-            projectImg="../public/shopping.png"
+            projectImg="../shopping.png"
             imgAlt="Shopping List App UI"
             projectNum="04"
             projectTitle="Shopping List App"
@@ -48,7 +48,7 @@ function Projects() {
             viewProject="https://shop-list-app-kreyes.netlify.app"
         />
         <OddProject
-            projectImg="../public/game.png"
+            projectImg="../game.png"
             imgAlt="Tic Tac Toe Game"
             projectNum="05"
             projectTitle="Tic Tac Toe"
