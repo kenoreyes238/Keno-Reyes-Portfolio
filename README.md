@@ -4,6 +4,10 @@ This is a source code to my personal portfolio website, built with TypeScript an
 This site includes all my relevant projects, as well as highlighting my experiences, certificates and showcasing some 
 links to my contact information. 
 
+As of 7/5/24: 
+- created Projects page for site
+  - features relevant projects for portfolio along with links to repos or pages itself
+
 As of 6/30/24: 
 - developed for mobile support
 - created Navbar using Bootstrap for other pages in the site
